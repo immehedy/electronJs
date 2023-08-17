@@ -1,0 +1,59 @@
+
+  $primary-lightest: #fff;
+  $primary-grey: #272727;
+  $primary-green: #88ff82;
+  $primary-green: #01ff00;
+  $primary-blue: #0d426a;
+  $primary-dark-blue: #051727;
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes fadeInWithScale {
+    0% {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes openTop {
+    0% {
+      transform: scaleY(0);
+    }
+  
+    100% {
+      transform: scaleY(1);
+    }
+  }
+  
+  @keyframes closeTop {
+    0% {
+      transform: scaleY(1);
+    }
+  
+    100% {
+      transform: scaleY(0);
+    }
+  }
