@@ -5,7 +5,10 @@ import { setupCounter } from './counter.js'
 
 document.querySelector('#app').innerHTML = `
   <div>
-      <img src="${banner}" class="banner" alt="banner" />
+  <div class="hero">
+  <img src="${banner}" class="banner" alt="banner" />
+  <p class="logo">logo</p>
+  </div>
   </div>
 `
 

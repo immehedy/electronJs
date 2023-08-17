@@ -19,11 +19,23 @@ body {
   background-color: $primary-grey;
 }
 
+.hero {
+  position: relative;
+}
+
+.logo {
+  color: $primary-lightest;
+  margin-left: 5%;
+  transform: rotate(-2deg);
+}
+
 .banner {
+  position: absolute;
   width: 100%;
   height: 70vh;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 6vw));
-  @media  (max-width: 420px) {
+  top: -100%;
+  @media (max-width: 420px) {
     height: 40vh;
   }
 }
